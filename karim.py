@@ -329,7 +329,7 @@ def ask_for_authentication(message):
                 for channel in CHANNELS:
                     btn = types.InlineKeyboardButton(text=f"اشترك في {channel}", url=f"https://t.me/{channel[1:]}")
                     markup.add(btn)
-                bot.reply_to(message, "من فضلك اشترك بكل القنوات", reply_markup=markup)
+                bot.reply_to(message, "اشترك بالقنوات واضغط /start ", reply_markup=markup)
 
 def check_password(message):
     chat_id = message.chat.id
