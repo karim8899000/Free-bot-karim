@@ -1,1 +1,1 @@
-worker: python karim.py
+web: python3 karim.py & python3 kero.py
