@@ -28,7 +28,7 @@ authenticated_users = {}
 photourl = "https://t.me/kari6201/20688"
 admin_chat_id = ida
 user_data = {}
-TOKEN = "7078228710:AAF0ilVziWnPayrtQz_5kgMI36SAhEjG3rA"
+TOKEN = "7078228710:AAHSXTW2EWm3GcmVdLyqxTrMKncXkszpO2k"
 token = TOKEN
 admin = ida
 
