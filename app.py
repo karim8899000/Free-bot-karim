@@ -1820,5 +1820,5 @@ def sdam2x(message,nu,pw,nu2):
     bot.send_message(message.chat.id,"حدث خطأ  ")
 
 
-print("----------bot started-------------")
-bot.infinity_polling()
+print("----------bot started------------")
+bot.polling(none_stop=True)
